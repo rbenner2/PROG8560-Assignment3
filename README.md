@@ -13,7 +13,7 @@ To Run Project Code:
 8. Project will be copied to your local folder
 9. In the terminal, run `npm install` to install node modules
 10. In terminal, type `SB_CLIENT_ID=<put_in_your_client_id> npm start`
-11. Go to localhost: ?
+11. Go to localhost:3002
 
 # License Type
 
