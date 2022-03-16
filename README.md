@@ -1,7 +1,7 @@
 # PROG8560-Assignment3
 PROG8560(W22) Assignment03 (INDIVIDUAL) “Continuous Integration”
 
-To Run Project Code:
+# To Run Project Code:
 
 1. Sign up for a paypal developer sandbox and get a client id (tutorial: https://www.appinvoice.com/en/s/documentation/how-to-get-paypal-client-id-and-secret-key-22)
 2. Copy github HTTPS link - https://github.com/rbenner2/PROG8560-Assignment3.git 
