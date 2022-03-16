@@ -1,5 +1,5 @@
 {
-  "name": "hardwarestore-midterm",
+  "name": "regan_benner_assignment1b",
   "version": "1.0.0",
   "description": "To run:",
   "main": "index.js",
@@ -10,17 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rbenner2/HardwareStoreSMSChatBot.git"
+    "url": "git+https://github.com/rbenner2/PROG8110Assignment1b.git"
   },
   "author": "Regan Benner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rbenner2/HardwareStoreSMSChatBot/issues"
+    "url": "https://github.com/rbenner2/PROG8110Assignment1b/issues"
   },
-  "homepage": "https://github.com/rbenner2/HardwareStoreSMSChatBot#readme",
+  "homepage": "https://github.com/rbenner2/PROG8110Assignment1b#readme",
   "dependencies": {
-    "express": "^4.17.3",
-    "node": "^17.4.0",
+    "express": "^4.17.2",
     "socket.io": "^4.4.1",
     "underscore": "^1.13.2"
   }
