@@ -92,7 +92,7 @@ module.exports = class TacoOrder extends Order {
           aReturn.push("Would you like churros with that? \n 1. Caramel Churros - $2.00 \n 2. Chocolate Churros - $2.00 \n 3. NO"); //second up-sell item
         }
         else {
-          aReturn.push("Please enter YES or NO");
+          aReturn.push("Please enter either YES or NO");
           this.stateCur = OrderState.ITEM2GREETING;
         }
         break;
