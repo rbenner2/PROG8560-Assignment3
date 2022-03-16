@@ -1,0 +1,27 @@
+{
+  "name": "hardwarestore-midterm",
+  "version": "1.0.0",
+  "description": "To run:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbenner2/HardwareStoreSMSChatBot.git"
+  },
+  "author": "Regan Benner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbenner2/HardwareStoreSMSChatBot/issues"
+  },
+  "homepage": "https://github.com/rbenner2/HardwareStoreSMSChatBot#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node": "^17.4.0",
+    "socket.io": "^4.4.1",
+    "underscore": "^1.13.2"
+  }
+}
