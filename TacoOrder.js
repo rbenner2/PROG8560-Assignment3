@@ -118,7 +118,9 @@ module.exports = class TacoOrder extends Order {
         if ((sInput.toLowerCase() != "small") &&
           (sInput.toLowerCase() != "medium") &&
           (sInput.toLowerCase() != "large")) {
-          aReturn.push("Please enter a valid size. SMALL, MEDIUM or LARGE."); //error handling
+          aReturn.push(
+            `${sInput} is not valid. Please enter a valid size. SMALL, MEDIUM or LARGE.`
+          ); //error handling
           this.stateCur = OrderState.SIZE2;
         }
         else {
