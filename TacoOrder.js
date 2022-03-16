@@ -126,7 +126,7 @@ module.exports = class TacoOrder extends Order {
         else {
           this.size2 = sInput;
           this.stateCur = OrderState.TOPPINGS2;
-          aReturn.push("What topping would you like? Select from CHICKEN, BEEF, or STEAK");
+          aReturn.push("Select what topping would you like? Select from CHICKEN, BEEF, or STEAK");
         }
         break;
       case OrderState.TOPPINGS2:
